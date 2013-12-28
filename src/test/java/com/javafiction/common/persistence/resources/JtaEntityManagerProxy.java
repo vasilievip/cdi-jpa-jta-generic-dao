@@ -21,6 +21,10 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/**
+ * Allows EntityManager to "auto join into JTA transaction"
+ * See: https://community.jboss.org/message/850194
+ */
 public class JtaEntityManagerProxy implements java.lang.reflect.InvocationHandler {
 
 

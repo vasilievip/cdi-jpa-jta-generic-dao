@@ -34,7 +34,7 @@ public class EntityManagerProducer {
         }
     }
 
-// OWB supports resources injection, so the code below works fine
+// OWB supports resources injection, so the code below works fine under OWB
 
 //    @PersistenceContext(unitName = "cdi-presistence-unit")
 //    private EntityManager entityManager;
