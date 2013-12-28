@@ -1,4 +1,4 @@
-cdi-jpa-jta-spring-data-jpa
+cdi+jpa+jta+generic-dao
 ===========================
 
-Example on how to use spring data + CDI + weld in unit test
+Example on how to use spring data/deltaspike data + CDI + JPA + JTA in unit tests
